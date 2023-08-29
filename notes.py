@@ -57,6 +57,45 @@ def add_two(n: int):
     return n + 2
 
 assert add_two(5) == 7, "add_two with input 5 test"
+assert add_two(-2) == 0, "add_two with input -2 test"
+assert add_two(0) == 2, "add_two with input 0 test"
 
+# Loops
+
+# For Loop Template 1
+# do something for each item in a list
+lst = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+for el in lst:
+    print(el)
+
+# For Loop Template 2
+# do something n times
+for i in range(5):
+    print("Intro to AI")
+
+# For Loop Template 3
+# do something for each item in a list but we care about the index
+for r in range(len(lst)):
+    if lst[r] == 'b':
+        lst[r] = 'c'
+
+print(lst)
+
+# Dictionaries
+
+dict = {"name": "rob", "age": 30}
+print(dict["age"])
+
+# Random
+import random
+
+food = ['pizza', 'carrots', 'eggs']
+dinner = random.choice(food)
+print(dinner)
+
+# f String
+age = 25
+# print("Mary is " + age + " years old")
+print(f"Mary is {age} years old")
 
 
