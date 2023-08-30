@@ -12,7 +12,6 @@ beginner-intermediate level?
 
 Here is ChatGPT's response, yours could be different:
 ---
-<i>
 Absolutely! Here's a set of beginner-intermediate level programming challenges in Python to help you practice and solidify your skills:
 
 **1. Palindrome Checker:**
@@ -77,7 +76,7 @@ Implement a program that can convert English text to Morse code and vice versa.
 
 These challenges cover various programming concepts and techniques. As you work through them, you'll gain practical experience and become more confident in your programming skills. Remember to break down the problems into smaller steps and test your code frequently. Happy coding!
 ---
-</i>
+
 Let's pick FizzBuzz, we probably want some additional information, so ask the following question:
 
 ```
@@ -85,7 +84,6 @@ Can you explain the requirements of the "FizzBuzz" question?
 ```
 Here is the response we get:
 ---
-<i>
 Certainly! The "FizzBuzz" problem is a classic coding interview question often used to assess a programmer's basic understanding of loops and conditionals. The task is to write a program that prints numbers from 1 to a specified upper limit (usually 100), but with a twist:
 
 1. For numbers that are multiples of 3, print "Fizz" instead of the number.
@@ -120,7 +118,6 @@ Explanation:
 - The number 15 is a multiple of both 3 and 5, so it's replaced with "FizzBuzz".
 
 The goal of the FizzBuzz problem is to demonstrate your ability to use conditional statements (if/elif/else) and loops (such as a for loop) effectively. It's also a way to check if a programmer can break down a problem into smaller steps and implement a solution efficiently.
-</i>
 ---
 Okay, that is a pretty good explanation of the problem, definitely way more than Mr. Berg would give you. 
 
@@ -133,7 +130,6 @@ Here is my code to solve FizzBuzz.
 Is this accurate, and if not, can you guide me in getting the correct answer?
 ```
 ---
-<i>
 Your code is on the right track, but there's a small issue with the order of your conditions. The code will correctly identify numbers that are divisible by 3 or 5, but when it comes to numbers that are divisible by both 3 and 5 (i.e., multiples of 15), it will only return 'Fizz' or 'Buzz'. To fix this, you should check for multiples of 15 first before checking for individual divisibility by 3 or 5. Here's the corrected code:
 
 ```python
@@ -153,7 +149,6 @@ for i in range(1, 21):
 ```
 
 With this order of conditions, the code will correctly print 'FizzBuzz' for numbers that are multiples of both 3 and 5.
-</i>
 ---
 
 Interesting response here.  Our solution was technically correct for individual numbers including numbers that are divisible by 3 and 5, but it doesn't print out the solution from 1 to 100.  I notice this and can ask it for a revision:
@@ -163,7 +158,6 @@ Could you check my above code again?  I don't think that it executes from 1 to 1
 ```
 It produces the following response:
 ---
-<i>
 Apologies for the confusion. You're right; the code I provided doesn't address the requirement of printing numbers from 1 to 100. Here's the modified version of your original code that correctly prints the FizzBuzz sequence from 1 to 100:
 
 ```python
@@ -183,7 +177,6 @@ for i in range(1, 101):
 ```
 
 This code will iterate through numbers from 1 to 100 and apply the FizzBuzz rules correctly. It should produce the expected FizzBuzz sequence where multiples of 3 are replaced with "Fizz," multiples of 5 are replaced with "Buzz," and multiples of both 3 and 5 are replaced with "FizzBuzz."
-</i>
 ---
 
 There you go, you have two solutions now.  One that you coded and one that ChatGPT coded, you hopefully have learned a little through the process and have a better understanding of the python language.  You have a real time tutor that will give you advice on your solutions, but you need to be thoughtful and not believe everything that ChatGPT has to say.  Go and read the documentation and write your own asserts along the way.
