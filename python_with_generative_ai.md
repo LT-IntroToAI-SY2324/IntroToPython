@@ -11,99 +11,185 @@ beginner-intermediate level?
 ```
 
 Here is ChatGPT's response, yours could be different:
+---
 <i>
-Of course! Here are some programming challenge questions that are suitable for someone with entry-level programming skills in Python:
+Absolutely! Here's a set of beginner-intermediate level programming challenges in Python to help you practice and solidify your skills:
 
-**1. Hello, World!**
-Write a program that prints "Hello, World!" to the console.
-
-**2. Sum of Numbers**
-Write a program that calculates and prints the sum of all numbers from 1 to a given input number.
-
-**3. Factorial Calculator**
-Write a program that calculates the factorial of a given number using loops or recursion.
-
-**4. Guess the Number**
-Create a simple number guessing game where the program generates a random number and the user tries to guess it. Provide hints such as "higher" or "lower" to help the user guess correctly.
-
-**5. Fibonacci Sequence**
-Write a program that generates the first n numbers of the Fibonacci sequence.
-
-**6. Palindrome Checker**
+**1. Palindrome Checker:**
 Write a program that checks if a given string is a palindrome (reads the same forwards and backwards).
 
-**7. Prime Number Checker**
+**2. FizzBuzz:**
+Write a program that prints numbers from 1 to 100. For multiples of 3, print "Fizz" instead of the number, and for multiples of 5, print "Buzz". For numbers that are multiples of both 3 and 5, print "FizzBuzz".
+
+**3. Prime Number Checker:**
 Write a program that checks whether a given number is prime or not.
 
-**8. Temperature Converter**
-Write a program that converts temperatures between Fahrenheit and Celsius.
+**4. Word Counter:**
+Create a program that takes a sentence as input and counts the number of words in it.
 
-**9. Rock, Paper, Scissors**
+**5. Reverse a String:**
+Write a program that takes a string as input and prints its reverse.
+
+**6. Temperature Converter:**
+Create a program that converts temperatures between Fahrenheit and Celsius.
+
+**7. Guess the Number:**
+Implement a simple number guessing game where the program generates a random number and the user tries to guess it.
+
+**8. Hangman Game:**
+Create a text-based Hangman game where a player tries to guess a hidden word letter by letter.
+
+**9. To-Do List Application:**
+Build a basic console-based to-do list application that allows users to add, remove, and list tasks.
+
+**10. Calculator:**
+Create a basic calculator that can perform addition, subtraction, multiplication, and division operations.
+
+**11. Even-Odd Number Sum:**
+Write a program that calculates the sum of even and odd numbers within a given range.
+
+**12. Character Frequency Counter:**
+Create a program that takes a string as input and counts the frequency of each character in it.
+
+**13. Fibonacci Sequence:**
+Generate the first n numbers of the Fibonacci sequence.
+
+**14. Simple ATM Simulator:**
+Build a simple ATM simulator that allows users to check balance, deposit, and withdraw money.
+
+**15. Rock-Paper-Scissors Game:**
 Create a simple rock-paper-scissors game where the user plays against the computer.
 
-**10. Simple To-Do List**
-Build a basic console-based to-do list application that allows the user to add, remove, and list tasks.
+**16. Vowel and Consonant Counter:**
+Write a program that counts the number of vowels and consonants in a given string.
 
-**11. Word Count**
-Write a program that counts the number of words in a given sentence.
+**17. Shopping Cart:**
+Build a basic shopping cart program where users can add items, view the cart, and calculate the total cost.
 
-**12. Reverse a String**
-Write a program that reverses a given string.
-
-**13. Multiplication Table**
-Generate the multiplication table for a given number, up to a specified range.
-
-**14. Pig Latin Translator**
-Create a simple Pig Latin translator that converts a given sentence into Pig Latin.
-
-**15. Even and Odd Sum**
-Write a program that calculates the sum of even and odd numbers separately within a given range.
-
-**16. Currency Converter**
-Build a program that converts between different currencies using predefined exchange rates.
-
-**17. Password Generator**
-Write a program that generates a random password with a specified length.
-
-**18. Binary to Decimal Converter**
+**18. Binary to Decimal Converter:**
 Create a program that converts a binary number to its decimal equivalent.
 
-**19. Character Frequency Counter**
-Write a program that takes a string as input and counts the frequency of each character in the string.
+**19. Basic Password Generator:**
+Write a program that generates a random password with a specified length.
 
-**20. Basic Calculator**
-Build a basic calculator that can perform addition, subtraction, multiplication, and division operations.
+**20. Morse Code Translator:**
+Implement a program that can convert English text to Morse code and vice versa.
 
-These challenges cover a range of concepts and skills that will help you solidify your understanding of Python programming. Remember to break down the problems into smaller steps, and don't hesitate to look up documentation or seek help if you get stuck on any particular challenge. Happy coding!
+These challenges cover various programming concepts and techniques. As you work through them, you'll gain practical experience and become more confident in your programming skills. Remember to break down the problems into smaller steps and test your code frequently. Happy coding!
+---
 </i>
-Let's pick Pig Latin Translator, we probably want some additional information, so ask the following question:
+Let's pick FizzBuzz, we probably want some additional information, so ask the following question:
 
 ```
-Can you explain the requirements of the "Pig Latin Translator" question? 
-And provide me with a sample input and output
+Can you explain the requirements of the "FizzBuzz" question? 
 ```
 Here is the response we get:
+---
 <i>
-Sure! The Pig Latin Translator is a text transformation program that converts a given sentence or word into Pig Latin. Pig Latin is a playful language game that involves altering the words according to a set of rules.
+Certainly! The "FizzBuzz" problem is a classic coding interview question often used to assess a programmer's basic understanding of loops and conditionals. The task is to write a program that prints numbers from 1 to a specified upper limit (usually 100), but with a twist:
 
-Here are the basic rules for converting a word into Pig Latin:
+1. For numbers that are multiples of 3, print "Fizz" instead of the number.
+2. For numbers that are multiples of 5, print "Buzz" instead of the number.
+3. For numbers that are multiples of both 3 and 5, print "FizzBuzz".
 
-1. If a word starts with a consonant (any letter except 'a', 'e', 'i', 'o', 'u'), move the consonant cluster to the end of the word and add "ay". For example, "python" becomes "onpythay".
+Here's an example implementation for the numbers 1 to 15:
 
-2. If a word starts with a vowel (any of 'a', 'e', 'i', 'o', 'u'), simply add "way" to the end of the word. For example, "apple" becomes "appleway".
-
-For a sentence, you would apply these rules to each word individually.
-
-Here's a sample input and its expected output:
-
-**Input:** "hello world"
-**Output:** "ellohay orldway"
+```
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+```
 
 Explanation:
-- "hello" starts with a consonant cluster "h" followed by "e". So, we move the consonant cluster "h" to the end and add "ay" to get "ellohay".
-- "world" starts with a consonant cluster "w" followed by "o". So, we move the consonant cluster "w" to the end and add "ay" to get "orldway".
+- The number 3 is a multiple of 3, so it's replaced with "Fizz".
+- The number 5 is a multiple of 5, so it's replaced with "Buzz".
+- The number 6 is a multiple of 3, so it's replaced with "Fizz".
+- The number 10 is a multiple of 5, so it's replaced with "Buzz".
+- The number 15 is a multiple of both 3 and 5, so it's replaced with "FizzBuzz".
 
-Combined, the sentence "hello world" becomes "ellohay orldway" in Pig Latin.
-
-Keep in mind that this is a basic implementation of Pig Latin translation. There are more advanced variations that account for punctuation, capitalization, and other linguistic aspects.
+The goal of the FizzBuzz problem is to demonstrate your ability to use conditional statements (if/elif/else) and loops (such as a for loop) effectively. It's also a way to check if a programmer can break down a problem into smaller steps and implement a solution efficiently.
 </i>
+---
+Okay, that is a pretty good explanation of the problem, definitely way more than Mr. Berg would give you. 
+
+Now you should go ahead and try to program the solution in `a1_ai_problems.py`
+
+I have added the fizzbuzz solution to the file with some asserts to test it out.  Once you have that solution paste it into ChatGPT in order to get its feedback:
+
+```
+Here is my code to solve FizzBuzz.
+Is this accurate, and if not, can you guide me in getting the correct answer?
+```
+---
+<i>
+Your code is on the right track, but there's a small issue with the order of your conditions. The code will correctly identify numbers that are divisible by 3 or 5, but when it comes to numbers that are divisible by both 3 and 5 (i.e., multiples of 15), it will only return 'Fizz' or 'Buzz'. To fix this, you should check for multiples of 15 first before checking for individual divisibility by 3 or 5. Here's the corrected code:
+
+```python
+def fizzbuzz(input_num):
+    if input_num % 15 == 0:
+        return 'FizzBuzz'
+    elif input_num % 3 == 0:
+        return 'Fizz'
+    elif input_num % 5 == 0:
+        return 'Buzz'
+    else:
+        return input_num
+
+# Test the function for numbers 1 to 20
+for i in range(1, 21):
+    print(fizzbuzz(i))
+```
+
+With this order of conditions, the code will correctly print 'FizzBuzz' for numbers that are multiples of both 3 and 5.
+</i>
+---
+
+Interesting response here.  Our solution was technically correct for individual numbers including numbers that are divisible by 3 and 5, but it doesn't print out the solution from 1 to 100.  I notice this and can ask it for a revision:
+
+```
+Could you check my above code again?  I don't think that it executes from 1 to 100 as it says in the original problem, could you help me with that?
+```
+It produces the following response:
+---
+<i>
+Apologies for the confusion. You're right; the code I provided doesn't address the requirement of printing numbers from 1 to 100. Here's the modified version of your original code that correctly prints the FizzBuzz sequence from 1 to 100:
+
+```python
+def fizzbuzz(input_num):
+    if input_num % 3 == 0:
+        if input_num % 5 == 0:
+            return 'FizzBuzz'
+        return 'Fizz'
+    elif input_num % 5 == 0:
+        return 'Buzz'
+    else:
+        return input_num
+
+# Print FizzBuzz sequence from 1 to 100
+for i in range(1, 101):
+    print(fizzbuzz(i))
+```
+
+This code will iterate through numbers from 1 to 100 and apply the FizzBuzz rules correctly. It should produce the expected FizzBuzz sequence where multiples of 3 are replaced with "Fizz," multiples of 5 are replaced with "Buzz," and multiples of both 3 and 5 are replaced with "FizzBuzz."
+</i>
+---
+
+There you go, you have two solutions now.  One that you coded and one that ChatGPT coded, you hopefully have learned a little through the process and have a better understanding of the python language.  You have a real time tutor that will give you advice on your solutions, but you need to be thoughtful and not believe everything that ChatGPT has to say.  Go and read the documentation and write your own asserts along the way.
+
+ChatGPT can tailor indidual assignments to you and can help you through those solutions...pretty awesome!! If you use it correctly.
+
+## Complete a few more of the practice questions that you received from ChatGPT
+
+In the `a1_ai_problems.py` file, complete a few more of the problems that ChatGPT gave you.  Once you have completed them, make sure to answer the reflection questions in the writeup.
