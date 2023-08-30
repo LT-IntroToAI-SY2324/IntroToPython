@@ -11,7 +11,7 @@ beginner-intermediate level?
 ```
 
 Here is ChatGPT's response, yours could be different:
-```
+<i>
 Of course! Here are some programming challenge questions that are suitable for someone with entry-level programming skills in Python:
 
 **1. Hello, World!**
@@ -75,7 +75,7 @@ Write a program that takes a string as input and counts the frequency of each ch
 Build a basic calculator that can perform addition, subtraction, multiplication, and division operations.
 
 These challenges cover a range of concepts and skills that will help you solidify your understanding of Python programming. Remember to break down the problems into smaller steps, and don't hesitate to look up documentation or seek help if you get stuck on any particular challenge. Happy coding!
-```
+</i>
 Let's pick Pig Latin Translator, we probably want some additional information, so ask the following question:
 
 ```
@@ -83,7 +83,7 @@ Can you explain the requirements of the "Pig Latin Translator" question?
 And provide me with a sample input and output
 ```
 Here is the response we get:
-```
+<i>
 Sure! The Pig Latin Translator is a text transformation program that converts a given sentence or word into Pig Latin. Pig Latin is a playful language game that involves altering the words according to a set of rules.
 
 Here are the basic rules for converting a word into Pig Latin:
@@ -106,4 +106,4 @@ Explanation:
 Combined, the sentence "hello world" becomes "ellohay orldway" in Pig Latin.
 
 Keep in mind that this is a basic implementation of Pig Latin translation. There are more advanced variations that account for punctuation, capitalization, and other linguistic aspects.
-```
+</i>
