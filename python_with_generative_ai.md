@@ -14,64 +14,64 @@ Here is ChatGPT's response, yours could be different:
 ---
 Absolutely! Here's a set of beginner-intermediate level programming challenges in Python to help you practice and solidify your skills:
 
-**1. Palindrome Checker:**
+**1. Palindrome Checker:
 Write a program that checks if a given string is a palindrome (reads the same forwards and backwards).
 
-**2. FizzBuzz:**
+**2. FizzBuzz:
 Write a program that prints numbers from 1 to 100. For multiples of 3, print "Fizz" instead of the number, and for multiples of 5, print "Buzz". For numbers that are multiples of both 3 and 5, print "FizzBuzz".
 
-**3. Prime Number Checker:**
+**3. Prime Number Checker:
 Write a program that checks whether a given number is prime or not.
 
-**4. Word Counter:**
+**4. Word Counter:
 Create a program that takes a sentence as input and counts the number of words in it.
 
-**5. Reverse a String:**
+**5. Reverse a String:
 Write a program that takes a string as input and prints its reverse.
 
-**6. Temperature Converter:**
+**6. Temperature Converter:
 Create a program that converts temperatures between Fahrenheit and Celsius.
 
-**7. Guess the Number:**
+**7. Guess the Number:
 Implement a simple number guessing game where the program generates a random number and the user tries to guess it.
 
-**8. Hangman Game:**
+**8. Hangman Game:
 Create a text-based Hangman game where a player tries to guess a hidden word letter by letter.
 
-**9. To-Do List Application:**
+**9. To-Do List Application:
 Build a basic console-based to-do list application that allows users to add, remove, and list tasks.
 
-**10. Calculator:**
+**10. Calculator:
 Create a basic calculator that can perform addition, subtraction, multiplication, and division operations.
 
-**11. Even-Odd Number Sum:**
+**11. Even-Odd Number Sum:
 Write a program that calculates the sum of even and odd numbers within a given range.
 
-**12. Character Frequency Counter:**
+**12. Character Frequency Counter:
 Create a program that takes a string as input and counts the frequency of each character in it.
 
-**13. Fibonacci Sequence:**
+**13. Fibonacci Sequence:
 Generate the first n numbers of the Fibonacci sequence.
 
-**14. Simple ATM Simulator:**
+**14. Simple ATM Simulator:
 Build a simple ATM simulator that allows users to check balance, deposit, and withdraw money.
 
-**15. Rock-Paper-Scissors Game:**
+**15. Rock-Paper-Scissors Game:
 Create a simple rock-paper-scissors game where the user plays against the computer.
 
-**16. Vowel and Consonant Counter:**
+**16. Vowel and Consonant Counter:
 Write a program that counts the number of vowels and consonants in a given string.
 
-**17. Shopping Cart:**
+**17. Shopping Cart:
 Build a basic shopping cart program where users can add items, view the cart, and calculate the total cost.
 
-**18. Binary to Decimal Converter:**
+**18. Binary to Decimal Converter:
 Create a program that converts a binary number to its decimal equivalent.
 
-**19. Basic Password Generator:**
+**19. Basic Password Generator:
 Write a program that generates a random password with a specified length.
 
-**20. Morse Code Translator:**
+**20. Morse Code Translator:
 Implement a program that can convert English text to Morse code and vice versa.
 
 These challenges cover various programming concepts and techniques. As you work through them, you'll gain practical experience and become more confident in your programming skills. Remember to break down the problems into smaller steps and test your code frequently. Happy coding!
